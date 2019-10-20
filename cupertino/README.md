@@ -4,18 +4,18 @@ A new Flutter project that have the ios look and feel.
 
 Note:
 
-a) It uses cupertino layout instead of the material layout
-b) This shows using abstract class to defines the styles for reuse.
-c) This is the MVC model app.
-d) app_state_model.dart handles the business logic, and use ChangeNotifierProvider see  https://pub.dev/documentation/provider/latest/provider/ChangeNotifierProvider-class.html
+* It uses cupertino layout instead of the material layout
+* This shows using abstract class to defines the styles for reuse.
+* This is the MVC model app.
+* app_state_model.dart handles the business logic, and use ChangeNotifierProvider see  https://pub.dev/documentation/provider/latest/provider/ChangeNotifierProvider-class.html
    It extends from foundation.ChangeNotifier
-e) products_repository.dart is a temporary listing.  A real application would use a database to store the info.
-f) main.dart calls builder: (context) => AppStateModel()..loadProducts(),   instead of model: model, changed code.
-g) Product_List_Tab uses CustomScrollsView, and sets the length value to semanticChildCount property
-h) SilverSafeArea.  https://api.flutter.dev/flutter/widgets/SliverSafeArea-class.html
-i) CupertinoTabScaffold defines the layout in CupertinoStoreHomePage
-j) images comes from the package shrine_images
-k) shopping_cart_tab.dart looks different from the sample. What is scoped_model.dart?   https://pub.dev/packages/scoped_model
+* products_repository.dart is a temporary listing.  A real application would use a database to store the info.
+* main.dart calls builder: (context) => AppStateModel()..loadProducts(),   instead of model: model, changed code.
+* Product_List_Tab uses CustomScrollsView, and sets the length value to semanticChildCount property
+* SilverSafeArea.  https://api.flutter.dev/flutter/widgets/SliverSafeArea-class.html
+* CupertinoTabScaffold defines the layout in CupertinoStoreHomePage
+* images comes from the package shrine_images
+* shopping_cart_tab.dart looks different from the sample. What is scoped_model.dart?   https://pub.dev/packages/scoped_model
 
 
 ## Getting Started
